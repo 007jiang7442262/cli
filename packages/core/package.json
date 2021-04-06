@@ -1,0 +1,34 @@
+{
+  "name": "@comm-cli-dev/core",
+  "version": "1.0.0",
+  "description": "comm-cli-dev core",
+  "author": "007jiang7442262 <2579375393@qq.com>",
+  "homepage": "https://github.com/007jiang7442262/cli#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007jiang7442262/cli.git"
+  },
+  "scripts": {
+    "test": "echo \"run test\""
+  },
+  "bugs": {
+    "url": "https://github.com/007jiang7442262/cli/issues"
+  },
+  "dependencies": {
+    "@comm-cli-dev/utils": "^1.0.0"
+  }
+}
+
+
