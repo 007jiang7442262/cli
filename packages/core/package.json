@@ -1,6 +1,6 @@
 {
   "name": "@comm-cli-dev/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "comm-cli-dev core",
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
@@ -27,8 +27,6 @@
     "url": "https://github.com/007jiang7442262/cli/issues"
   },
   "dependencies": {
-    "@comm-cli-dev/utils": "^1.0.0"
+    "@comm-cli-dev/utils": "^1.0.1"
   }
 }
-
-
