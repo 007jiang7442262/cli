@@ -1,3 +1,5 @@
+##
+在没有提交包的时候, 所有的  "version": "1.0.0", 都是这个
 ## 开发步骤
 npm init -y
 
@@ -19,10 +21,16 @@ lerna run --scope @comm-cli-dev/core test  启动指定包的命令  相当于(n
 lerna exec   --scope @comm-cli-dev/utils  -- rm -rf   node-modules
 
 
-lerna version //不是很清楚用法
+lerna version //修改包的版本号
 
 lerna  changed 查看package 是否有改变
 
 lerna  diff // 不是很清楚用法
 
+
+
+
+
+## git 
+git remote add origin git@gitee.com:jc7442262/comm-cli-dev.git  // 第二段 3-6 3:50
 
