@@ -28,5 +28,9 @@
   },
   "dependencies": {
     "@comm-cli-dev/utils": "^1.0.1"
+  },
+  "gitHead": "c1acccc0530eba94af8cf42638ac1f125b0ff158",
+  "publishConfig": {
+    "access": "public"
   }
 }
