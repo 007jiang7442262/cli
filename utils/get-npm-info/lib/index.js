@@ -24,7 +24,6 @@ function getDefaultRegistry(isOrigin) {
 }
 
 
-
 function getNpmVersion(data) {
   if (data) {
       return data.versions && Object.keys(data.versions);

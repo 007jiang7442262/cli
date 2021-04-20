@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 'use strict';
-const importLocal = require('import-local');  //
+const importLocal = require('import-local');
 const log = require('@comm-cli-dev/log');
 
 if (importLocal(__filename)) {
