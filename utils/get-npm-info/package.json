@@ -1,11 +1,11 @@
 {
-  "name": "@comm-cli-dev/core",
+  "name": "@comm-cli-dev/get-npm-info",
   "version": "1.0.4",
-  "description": "comm-cli-dev core",
+  "description": "get npm info",
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,20 +14,19 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "http://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/007jiang7442262/cli.git"
   },
   "scripts": {
-    "test": "echo \"run test\""
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/007jiang7442262/cli/issues"
   },
   "dependencies": {
-    "@comm-cli-dev/utils": "^1.0.3"
-  },
-  "gitHead": "c1acccc0530eba94af8cf42638ac1f125b0ff158"
+    "axios": "^0.21.1"
+  }
 }

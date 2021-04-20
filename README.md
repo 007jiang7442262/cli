@@ -7,8 +7,9 @@ git init 初始化
 
 lerna init  lerna初始化
 
-lerna create core    创建package 
-
+lerna create core path   创建package     
+// lerna creare get-npm-info utils/get-npm-info
+// lerna create  get-npm-info /utils/
 
 lerna add @comm-cli-dev/utils  packages/core    添加到指定的packages要下载哪个依赖   第一个参数要下载的依赖, 要下载到指定包的路径
  
