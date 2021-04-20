@@ -59,4 +59,3 @@ lerna ERR!     at emitErrorNT (internal/streams/destroy.js:100:8)
 lerna ERR!     at emitErrorCloseNT (internal/streams/destroy.js:68:3)
 lerna ERR! lerna request to http://registry.npmjs.org/@comm-cli-dev%2futils failed, reason: connect ETIMEDOUT 104.16.27.35:80
 
-npm publish --access public
