@@ -43,7 +43,6 @@ function registerCommand() {
   .usage('<command> [option]')
   .version(pak.version)
   .option('-d --debug', '开启调试模式', false);
-
   program.parse(process.argv);
 }
 

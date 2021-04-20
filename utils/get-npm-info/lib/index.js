@@ -18,9 +18,11 @@ function getNpmInfo(npmName, registry) {
 }
 
 
+
 function getDefaultRegistry(isOrigin) {
     return isOrigin ? 'http://registry.npmjs.org' : 'http://registry.npm.taobao.org';
 }
+
 
 
 function getNpmVersion(data) {
@@ -31,9 +33,12 @@ function getNpmVersion(data) {
 }
 
 
+
 function getSemverVersion(baseVersion, version) {
     return version.filter(item => semver.lt(baseVersion, `${item}`));
 }
+
+
 
 async function checkVersionUpdate(baseVersion, npmName, registry) {
    if (baseVersion && npmName) {
@@ -45,6 +50,7 @@ async function checkVersionUpdate(baseVersion, npmName, registry) {
    } 
    return null;
 }
+
 
 module.exports = {
     getNpmInfo,
