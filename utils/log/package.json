@@ -1,5 +1,5 @@
 {
-  "name": "@comm-cli-dev/log",
+  "name": "comm-cli-dev/log",
   "version": "1.0.7",
   "description": "> TODO: description",
   "keywords": [
@@ -31,5 +31,6 @@
   },
   "dependencies": {
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "d0cfe7835e4668a96bab223fa32f1d18341550a1"
 }

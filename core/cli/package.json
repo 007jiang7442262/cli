@@ -27,9 +27,9 @@
     "url": "https://github.com/007jiang7442262/cli/issues"
   },
   "dependencies": {
-    "@comm-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@comm-cli-dev/log": "file:../../utils/log",
-    "@comm-cli-dev/utils": "file:../../utils/utils",
+    "@comm-cli-dev/get-npm-info": "^1.0.7",
+    "@comm-cli-dev/log": "^1.0.7",
+    "@comm-cli-dev/utils": "^1.0.7",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "import-local": "^3.0.2",
@@ -40,7 +40,7 @@
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
-  "gitHead": "c1acccc0530eba94af8cf42638ac1f125b0ff158",
+  "gitHead": "d0cfe7835e4668a96bab223fa32f1d18341550a1",
   "devDependencies": {
     "commander": "^7.2.0"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@comm-cli-dev/get-npm-info",
+  "name": "comm-cli-dev/get-npm-info",
   "version": "1.0.7",
   "description": "get npm info",
   "author": "007jiang7442262 <2579375393@qq.com>",
@@ -28,5 +28,6 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "gitHead": "d0cfe7835e4668a96bab223fa32f1d18341550a1"
 }
