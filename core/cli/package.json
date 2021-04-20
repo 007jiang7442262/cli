@@ -40,7 +40,7 @@
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
-  "gitHead": "3eb1678f3ee4fa9e99947018c21df927486ad843",
+  "gitHead": "eb9404377258f668bbfe28db197990265dfe5397",
   "devDependencies": {
     "commander": "^7.2.0"
   }

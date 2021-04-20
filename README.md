@@ -48,3 +48,15 @@ git config  user.email 2579375393@qq.com
 lerna publish //提交更新包
 lerna version //修改包的版本号
 
+## 问题
+lerna ERR! ETIMEDOUT request to http://registry.npmjs.org/@comm-cli-dev%2futils failed, reason: connect ETIMEDOUT 104.16.27.35:80
+lerna ERR! FetchError: request to http://registry.npmjs.org/@comm-cli-dev%2futils failed, reason: connect ETIMEDOUT 104.16.27.35:80
+lerna ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:97:14)
+lerna ERR!     at ClientRequest.emit (events.js:314:20)
+lerna ERR!     at Socket.socketErrorListener (_http_client.js:469:9)
+lerna ERR!     at Socket.emit (events.js:326:22)
+lerna ERR!     at emitErrorNT (internal/streams/destroy.js:100:8)
+lerna ERR!     at emitErrorCloseNT (internal/streams/destroy.js:68:3)
+lerna ERR! lerna request to http://registry.npmjs.org/@comm-cli-dev%2futils failed, reason: connect ETIMEDOUT 104.16.27.35:80
+
+npm publish --access public
