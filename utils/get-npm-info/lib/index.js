@@ -23,14 +23,6 @@ function getDefaultRegistry(isOrigin) {
 }
 
 
-/* async function getNpmVersion(npmName, registry) {
- const data =  await getNpmInfo(npmName, registry);
- console.log('data1', data);
-  if (data) {
-      return data.versions && Object.keys(data.versions);
-  }
-  return null;
-} */
 function getNpmVersion(data) {
   if (data) {
       return data.versions && Object.keys(data.versions);

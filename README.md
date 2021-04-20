@@ -40,6 +40,11 @@ git remote add origin git@gitee.com:jc7442262/comm-cli-dev.git  // 第二段 3-6
 ## 发布流程
 如果有更新 
 lerna  diff // 查看变更
-
+git add .
+git commit -m ""
+git push
+git config  user.name 007jiang7442262 
+git config  user.email 2579375393@qq.com
+lerna publish //提交更新包
 lerna version //修改包的版本号
 
