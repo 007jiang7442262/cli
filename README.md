@@ -35,3 +35,9 @@ lerna  diff // 不是很清楚用法
 ## git 
 git remote add origin git@gitee.com:jc7442262/comm-cli-dev.git  // 第二段 3-6 3:50
 
+
+
+## 发布流程
+如果有更新 
+lerna version //修改包的版本号
+
