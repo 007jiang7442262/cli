@@ -26,7 +26,7 @@ lerna version //修改包的版本号
 
 lerna  changed 查看package 是否有改变
 
-lerna  diff // 不是很清楚用法
+lerna  diff // 查看变更
 
 
 
@@ -39,5 +39,7 @@ git remote add origin git@gitee.com:jc7442262/comm-cli-dev.git  // 第二段 3-6
 
 ## 发布流程
 如果有更新 
+lerna  diff // 查看变更
+
 lerna version //修改包的版本号
 
