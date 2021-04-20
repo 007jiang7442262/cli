@@ -1,0 +1,47 @@
+{
+  "name": "@comm-cli-dev/core",
+  "version": "1.0.1",
+  "description": "comm-cli-dev core",
+  "author": "007jiang7442262 <2579375393@qq.com>",
+  "homepage": "https://github.com/007jiang7442262/cli#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "comm-cli-dev": "/lib/core.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007jiang7442262/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/007jiang7442262/cli/issues"
+  },
+  "dependencies": {
+    "@comm-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@comm-cli-dev/log": "file:../../utils/log",
+    "@comm-cli-dev/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "minimist": "^1.2.5",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
+  "gitHead": "c1acccc0530eba94af8cf42638ac1f125b0ff158",
+  "devDependencies": {
+    "commander": "^7.2.0"
+  }
+}
