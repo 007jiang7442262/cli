@@ -1,6 +1,6 @@
 {
   "name": "@comm-cli-dev/core",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "comm-cli-dev core",
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
@@ -27,9 +27,9 @@
     "url": "https://github.com/007jiang7442262/cli/issues"
   },
   "dependencies": {
-    "@comm-cli-dev/get-npm-info": "^1.0.8",
-    "@comm-cli-dev/log": "^1.0.8",
-    "@comm-cli-dev/utils": "^1.0.8",
+    "@comm-cli-dev/get-npm-info": "^1.0.9",
+    "@comm-cli-dev/log": "^1.0.9",
+    "@comm-cli-dev/utils": "^1.0.9",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "import-local": "^3.0.2",
