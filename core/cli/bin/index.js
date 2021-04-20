@@ -43,6 +43,39 @@ function registerCommand() {
   .usage('<command> [option]')
   .version(pak.version)
   .option('-d --debug', '开启调试模式', false);
+
+  program.on('option:debug', function() {
+    const debug = program._optionValues.debug;
+    if(debug) {
+      process.env.LOG_LEVEL = 'verbose';
+    } else {
+      process.env.LOG_LEVEL = 'info';
+    }
+    log.level = process.env.LOG_LEVEL;
+    log.verbose('开启debug');
+  })
+
+
+  program
+    .command("init [projectName]") // comm-cli-dev  init test-project --force
+    .option("-f --force")
+    .action((projectName, cmdObj) => {
+      console.log('projectName', projectName);
+      console.log('projectName =', cmdObj.force);
+    })
+
+  // 对未知的命令提示 先把上面的arguments注释了
+  program.on('command:*', function(array) {
+    console.error('未知命令 :', array[0]);
+    const allCommand = program.commands.map(item => item.name());
+    console.log('可用命令:', allCommand.join(','))
+  })  
+
+  if(process.argv.length < 3) {
+    program.outputHelp();
+    console.log();
+  }
+
   program.parse(process.argv);
 }
 
@@ -88,7 +121,7 @@ function createDefaultConfig() {
 function checkInputArges() {
   const mimimist = require('minimist'); // 解析命令参数
   const args = mimimist(process.argv.slice(2));
-  checkArgs(args);
+  // checkArgs(args);
 }
 
 function checkArgs(args) {
