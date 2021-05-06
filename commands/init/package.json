@@ -1,10 +1,7 @@
 {
-  "name": "@comm-cli-dev/log",
+  "name": "@comm-cli-dev/init",
   "version": "1.0.13",
-  "description": "> TODO: description",
-  "keywords": [
-    "log"
-  ],
+  "description": "init",
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
   "license": "ISC",
@@ -13,7 +10,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
@@ -28,7 +24,17 @@
     "url": "https://github.com/007jiang7442262/cli/issues"
   },
   "dependencies": {
-    "npmlog": "^4.1.2"
-  },
-  "gitHead": "d4a23c0075836d43645f9346fa50e74f5b8b430d"
+    "@comm-cli-dev/command": "file:../../modules/command",
+    "@comm-cli-dev/log": "file:../../utils/log",
+    "@comm-cli-dev/package": "file:../../modules/package",
+    "@comm-cli-dev/request": "file:../../utils/request",
+    "@comm-cli-dev/utils": "file:../../utils/utils",
+    "cli-spinner": "^0.2.10",
+    "ejs": "^3.1.6",
+    "fs-extra": "^9.1.0",
+    "glob": "^7.1.6",
+    "inquirer": "^8.0.0",
+    "kebabcase": "^1.0.1",
+    "semver": "^7.3.5"
+  }
 }

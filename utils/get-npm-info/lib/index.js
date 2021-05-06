@@ -50,9 +50,21 @@ async function checkVersionUpdate(baseVersion, npmName, registry) {
    return null;
 }
 
+async function getNpmLatestVersion(npmName, registry){
+  const data = await getNpmInfo(npmName, registry);
+  if (data) {
+    const allVersion = getNpmVersion(data);
+    return allVersion[0] || null;
+  } else {
+    return null;
+  }
+}
+
 
 module.exports = {
     getNpmInfo,
     getNpmVersion,
-    checkVersionUpdate
+    checkVersionUpdate,
+    getDefaultRegistry,
+    getNpmLatestVersion
 };

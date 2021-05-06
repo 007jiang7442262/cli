@@ -10,9 +10,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
+
   "bin": {
     "comm-cli-dev": "/lib/core.js"
   },
@@ -28,12 +26,12 @@
   },
   "dependencies": {
     "@comm-cli-dev/get-npm-info": "^1.0.13",
+    "@comm-cli-dev/init": "file:../../commands/init",
     "@comm-cli-dev/log": "^1.0.13",
     "@comm-cli-dev/utils": "^1.0.13",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "import-local": "^3.0.2",
-    "minimist": "^1.2.5",
     "npmlog": "^4.1.2",
     "path-exists": "^4.0.0",
     "root-check": "^1.0.0",

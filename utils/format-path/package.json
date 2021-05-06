@@ -1,10 +1,7 @@
 {
-  "name": "@comm-cli-dev/log",
+  "name": "@comm-cli-dev/format-path",
   "version": "1.0.13",
   "description": "> TODO: description",
-  "keywords": [
-    "log"
-  ],
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
   "license": "ISC",
@@ -26,9 +23,5 @@
   },
   "bugs": {
     "url": "https://github.com/007jiang7442262/cli/issues"
-  },
-  "dependencies": {
-    "npmlog": "^4.1.2"
-  },
-  "gitHead": "d4a23c0075836d43645f9346fa50e74f5b8b430d"
+  }
 }
