@@ -1,6 +1,6 @@
 {
   "name": "@comm-cli-dev/get-npm-info",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "get npm info",
   "author": "007jiang7442262 <2579375393@qq.com>",
   "homepage": "https://github.com/007jiang7442262/cli#readme",
@@ -10,7 +10,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
